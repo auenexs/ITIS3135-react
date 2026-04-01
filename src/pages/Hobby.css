@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap");
+
+.hobby-page {
+  font-family: "Crimson Pro", Georgia, serif;
+  background-color: #f4ecd8;
+  color: #2c1810;
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.hobby-header {
+  background-color: #2c1810;
+  padding: 1.5rem 2rem;
+  border-bottom: 3px solid #c47c3e;
+}
+
+.hobby-header h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: #f4ecd8;
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.hobby-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.1rem 0;
+}
+
+.hobby-header nav .divider {
+  color: #c47c3e;
+  margin: 0 0.6rem;
+  user-select: none;
+  font-size: 0.7rem;
+}
+
+.hobby-header nav a {
+  color: #dac9a8;
+  text-decoration: none;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 1.05rem;
+  transition: color 0.2s;
+}
+
+.hobby-header nav a:hover {
+  color: #f4ecd8;
+}
+
+.hobby-header nav a.active {
+  color: #c47c3e;
+  font-weight: 600;
+}
+
+/* Main */
+.hobby-main {
+  flex: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+.hobby-main h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: #8b4513;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #c47c3e;
+}
+
+.hobby-main h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: #6b3410;
+  font-size: 1.2rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.hobby-main p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #2c1810;
+}
+
+.hobby-main a {
+  color: #8b4513;
+  text-decoration: none;
+  border-bottom: 1px solid #c47c3e;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.hobby-main a:hover {
+  color: #c47c3e;
+  border-color: #8b4513;
+}
+
+/* Figures */
+.hobby-main figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.hobby-main figure img {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  outline: 3px solid #c47c3e;
+  border-radius: 2px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hobby-main figcaption {
+  font-size: 0.95rem;
+  color: #7a5c3e;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Tables */
+.hobby-main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+}
+
+.hobby-main th {
+  background-color: #8b4513;
+  color: #f4ecd8;
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 600;
+}
+
+.hobby-main td {
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid #d4b896;
+  color: #2c1810;
+}
+
+.hobby-main tr:nth-child(even) td {
+  background-color: #ede0c4;
+}
+
+/* Lists */
+.hobby-main ul,
+.hobby-main ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hobby-main li {
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+/* Blockquote */
+.hobby-main blockquote {
+  border-left: 4px solid #8b4513;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background-color: #ede0c4;
+  color: #5a3520;
+  font-style: italic;
+  font-size: 1.1rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.hobby-main blockquote cite {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: #7a5c3e;
+  font-style: normal;
+}

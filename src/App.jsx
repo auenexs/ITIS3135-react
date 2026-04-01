@@ -1,0 +1,41 @@
+import { Routes, Route } from 'react-router'
+import './App.css'
+import Header from './Header'
+import Footer from './Footer'
+
+// Pages
+import Home from './pages/Home'
+import Contract from './pages/Contract'
+import WebsiteEvaluations from './pages/WebsiteEvaluations'
+import Survey from './pages/Survey'
+import Gallery from './pages/Gallery'
+import Inventory from './pages/Inventory'
+import Instructions from './pages/Instructions'
+import Highlight from './pages/Highlight'
+import Hobby from './pages/Hobby'
+import IntroForm from './pages/IntroForm'
+import CrappyWebpage from './pages/CrappyWebpage'
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contract" element={<Contract />} />
+        <Route path="/website-evaluations" element={<WebsiteEvaluations />} />
+        <Route path="/survey" element={<Survey />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/inventory" element={<Inventory />} />
+        <Route path="/instructions" element={<Instructions />} />
+        <Route path="/highlight" element={<Highlight />} />
+        <Route path="/hobby" element={<Hobby />} />
+        <Route path="/intro-form" element={<IntroForm />} />
+        <Route path="/crappy-webpage" element={<CrappyWebpage />} />
+      </Routes>
+      <Footer />
+    </>
+  )
+}
+
+export default App

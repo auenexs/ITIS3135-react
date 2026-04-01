@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Merriweather:wght@400;700&display=swap');
+
+.site-header {
+  background-color: #252323;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #A99985;
+}
+
+.site-header h1 {
+  font-family: 'Merriweather', serif;
+  color: #70798C;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.primary-nav {
+  margin-bottom: 0.5rem;
+}
+
+.primary-nav a {
+  color: #DAD2BC;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.primary-nav a:hover {
+  color: #F5F1ED;
+}
+
+.primary-nav a:active {
+  color: #70798C;
+}
+
+.secondary-nav {
+  font-size: 0.85rem;
+}
+
+.secondary-nav a {
+  color: #A99985;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.secondary-nav a:hover {
+  color: #DAD2BC;
+}
+
+.secondary-nav a:active {
+  color: #70798C;
+}

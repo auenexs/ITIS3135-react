@@ -1,0 +1,32 @@
+.site-footer {
+  background-color: #252323;
+  padding: 1rem;
+  border-top: 2px solid #A99985;
+  text-align: center;
+  margin-top: auto;
+}
+
+.site-footer nav {
+  margin-bottom: 0.5rem;
+}
+
+.site-footer a {
+  color: #A99985;
+  text-decoration: none;
+  margin: 0 0.25rem;
+  transition: color 0.2s;
+}
+
+.site-footer a:hover {
+  color: #F5F1ED;
+}
+
+.site-footer a:active {
+  color: #70798C;
+}
+
+.site-footer p {
+  color: #DAD2BC;
+  font-size: 0.9rem;
+  margin: 0;
+}
