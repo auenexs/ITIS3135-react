@@ -16,6 +16,8 @@ export default function Footer() {
         <a href="https://auenexs.github.io" target="_blank" rel="noopener noreferrer">GitHub.io</a>
         {" | "}
         <a href="https://www.linkedin.com/in/tybland" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        {" | "}
+        <a href="https://itis-3135-react-omega.vercel.app/" target="_blank" rel="noopener noreferrer">React Site</a>
       </nav>
       <p>
         Page created by Ty Bland Design Co., certified in{" "}
