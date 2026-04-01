@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function Contract() {
+  useEffect(() => {
+    document.title = "Ty Bland's Tranquil Badger ~ ITIS3135 | Contract";
+  }, []);
+
   return (
     <main>
       <h2>Contract</h2>

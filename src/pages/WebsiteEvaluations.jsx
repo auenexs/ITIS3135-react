@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function WebsiteEvaluations() {
+  useEffect(() => {
+    document.title = "Ty Bland's Tranquil Badger ~ ITIS3135 | Website Evaluations";
+  }, []);
+
   return (
     <main>
       <h2>Website Evaluations</h2>

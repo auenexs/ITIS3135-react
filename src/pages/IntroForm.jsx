@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./IntroForm.css";
 
 const initialFormData = {
@@ -39,6 +39,10 @@ const initialLinks = [
 ];
 
 export default function IntroForm() {
+  useEffect(() => {
+    document.title = "Ty Bland's Tranquil Badger ~ ITIS3135 | Intro Form";
+  }, []);
+
   const [formData, setFormData] = useState(initialFormData);
   const [courses, setCourses] = useState(initialCourses);
   const [links, setLinks] = useState(initialLinks);

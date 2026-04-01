@@ -1,0 +1,28 @@
+.root-footer {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-top: 2px solid #e5e5e5;
+  text-align: center;
+  margin-top: auto;
+}
+
+.root-footer nav {
+  margin-bottom: 0.5rem;
+}
+
+.root-footer a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.root-footer a:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+.root-footer p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}

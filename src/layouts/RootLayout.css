@@ -1,0 +1,67 @@
+.root-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.root-layout main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.root-layout h1 {
+  font-family: 'Lora', serif;
+  color: #333;
+}
+
+.root-layout h2 {
+  font-family: 'Lora', serif;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.root-layout a {
+  color: #0066cc;
+}
+
+.root-layout a:hover {
+  color: #004499;
+}
+
+.root-layout figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.root-layout figure img {
+  max-width: 300px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.root-layout figcaption {
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.root-layout blockquote {
+  border-left: 4px solid #0066cc;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: #f0f7ff;
+  font-style: italic;
+}
+
+.root-layout blockquote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  color: #666;
+}

@@ -1,9 +1,9 @@
 import { Link } from "react-router";
-import "./Footer.css";
+import "./RootFooter.css";
 
-export default function Footer() {
+export default function RootFooter() {
   return (
-    <footer className="site-footer">
+    <footer className="root-footer">
       <nav>
         <Link to="/itis3135">ITIS3135</Link>
         {" | "}
@@ -19,11 +19,7 @@ export default function Footer() {
       </nav>
       <p>
         Page created by Ty Bland Design Co., certified in{" "}
-        <a
-          href="https://www.freecodecamp.org/certification/auenexs/responsive-web-design-v9"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.freecodecamp.org/certification/auenexs/responsive-web-design-v9" target="_blank" rel="noopener noreferrer">
           Responsive Web Design
         </a>
       </p>

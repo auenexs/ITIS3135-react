@@ -4,19 +4,19 @@ import "./Header.css";
 export default function Header() {
   const primaryNavLinks = [
     { to: "/", label: "Home" },
-    { to: "/contract", label: "Contract" },
-    { to: "/website-evaluations", label: "Website Evaluations" },
-    { to: "/survey", label: "Survey" },
-    { to: "/gallery", label: "Gallery" },
-    { to: "/inventory", label: "Inventory" },
-    { to: "/instructions", label: "Instructions" },
-    { to: "/highlight", label: "Highlight" },
-    { to: "/hobby", label: "Hobby" },
-    { to: "/intro-form", label: "Intro Form" },
+    { to: "/itis3135/contract", label: "Contract" },
+    { to: "/itis3135/website-evaluations", label: "Website Evaluations" },
+    { to: "/itis3135/survey", label: "Survey" },
+    { to: "/itis3135/gallery", label: "Gallery" },
+    { to: "/itis3135/inventory", label: "Inventory" },
+    { to: "/itis3135/instructions", label: "Instructions" },
+    { to: "/itis3135/highlight", label: "Highlight" },
+    { to: "/itis3135/hobby", label: "Hobby" },
+    { to: "/itis3135/intro-form", label: "Intro Form" },
   ];
 
   const secondaryNavLinks = [
-    { to: "/crappy-webpage", label: "CRAPpy Webpage" },
+    { to: "/itis3135/crappy-webpage", label: "CRAPpy Webpage" },
   ];
 
   return (

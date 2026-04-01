@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Hobby.css";
 
 const sections = [
@@ -13,6 +13,10 @@ const sections = [
 
 export default function Hobby() {
   const [activeSection, setActiveSection] = useState("what");
+
+  useEffect(() => {
+    document.title = "Oil Painting | Tyler Bland";
+  }, []);
 
   return (
     <div className="hobby-page">

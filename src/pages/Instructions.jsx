@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function Instructions() {
+  useEffect(() => {
+    document.title = "Ty Bland's Tranquil Badger ~ ITIS3135 | Instructions";
+  }, []);
+
   return (
     <main>
       <h2>Instructions Coming Soon</h2>
