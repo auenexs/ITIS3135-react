@@ -13,6 +13,7 @@ export default function Header() {
     { to: "/itis3135/highlight", label: "Highlight" },
     { to: "/itis3135/hobby", label: "Hobby" },
     { to: "/itis3135/intro-form", label: "Intro Form" },
+    { to: "/itis3135/slideshow", label: "Slideshow" },
   ];
 
   const secondaryNavLinks = [

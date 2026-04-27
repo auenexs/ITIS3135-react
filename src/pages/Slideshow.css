@@ -1,0 +1,137 @@
+/**
+ * Slideshow Component Styles
+ */
+
+.slideshow-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.slideshow-page h2 {
+  margin-bottom: 0.5rem;
+}
+
+.slideshow-subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.slideshow-subtitle a {
+  color: #0066cc;
+}
+
+.slideshow-container {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slideshow-image-wrapper {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow-image {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.slideshow-counter {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.playing-indicator {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.slideshow-controls {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.control-btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #333;
+  color: #fff;
+}
+
+.control-btn:hover:not(:disabled) {
+  background: #555;
+  transform: translateY(-2px);
+}
+
+.control-btn:disabled {
+  background: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.play-btn {
+  background: #27ae60;
+}
+
+.play-btn:hover:not(:disabled) {
+  background: #2ecc71;
+}
+
+.stop-btn {
+  background: #e74c3c;
+}
+
+.stop-btn:hover:not(:disabled) {
+  background: #c0392b;
+}
+
+.slideshow-loading,
+.slideshow-error {
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.slideshow-error {
+  color: #e74c3c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .slideshow-page {
+    padding: 1rem;
+  }
+
+  .slideshow-image-wrapper {
+    min-height: 250px;
+  }
+
+  .slideshow-image {
+    max-height: 250px;
+  }
+
+  .control-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+}

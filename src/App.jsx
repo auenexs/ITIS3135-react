@@ -21,6 +21,7 @@ import Highlight from './pages/Highlight'
 import Hobby from './pages/Hobby'
 import IntroForm from './pages/IntroForm'
 import CrappyWebpage from './pages/CrappyWebpage'
+import Slideshow from './pages/Slideshow'
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="hobby" element={<Hobby />} />
         <Route path="intro-form" element={<IntroForm />} />
         <Route path="crappy-webpage" element={<CrappyWebpage />} />
+        <Route path="slideshow" element={<Slideshow />} />
       </Route>
     </Routes>
   )
